@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.content {
+  background-color: lightgray;
+  width: 95%;
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 0%;
+}
+figure {
+  background-color: white;
+  padding-bottom: 0.7cm;
+}
+figcaption {
+  background-color: white;
+}
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.75rem;
+}
+h2 {
+  font-weight: normal;
+  margin-left: 20%;
+}
+ul {
+  margin-left: 25%;
+  margin-right: 20%;
+}
+.bottom {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.4rem;
+}
+.pm {
+  margin-left: 25%;
+  margin-right: 20%;
+  font-size: 1.2rem;
+}
