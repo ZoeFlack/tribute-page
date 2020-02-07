@@ -6,15 +6,24 @@
 .content {
   background-color: lightgray;
   width: 95%;
+  max-width: 1200px;
   margin: 10px auto;
 }
 
 h1 {
   text-align: center;
   font-size: 4rem;
+
   font-weight: normal;
   margin-bottom: 0%;
 }
+@media (max-width: 700px) {
+  h1 {
+    font-size: 35px;
+    padding-top: 25px;
+  }
+}
+
 figure {
   background-color: white;
   padding-bottom: 10px;
@@ -26,12 +35,24 @@ figcaption {
   text-align: center;
   font-size: 1.5rem;
 }
+@media (max-width: 700px) {
+  .subtitle {
+    padding: 7px;
+    font-size: 1.3rem;
+  }
+}
 .center {
   display: block;
   margin: 0 auto;
   width: 99%;
 }
-
+@media (max-width: 700px) {
+  figure {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+  }
+}
 figcaption {
   text-align: center;
   font-size: 0.75rem;
@@ -40,17 +61,51 @@ h2 {
   font-weight: normal;
   margin-left: 20%;
 }
+@media (max-width: 700px) {
+  h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.1rem;
+  margin-top: 10%;
+  }
 ul {
   margin-left: 25%;
   margin-right: 20%;
+}
+@media (max-width: 700px) {
+  ul {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  li {
+    padding: 7px;
+  }
 }
 .bottom {
   margin-left: 25%;
   margin-right: 25%;
   font-size: 1.4rem;
 }
+@media (max-width: 700px) {
+  .bottom {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+  }
+}
 .pm {
   margin-left: 25%;
   margin-right: 20%;
   font-size: 1.2rem;
+}
+@media (max-width: 700px) {
+  .pm {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1rem;
+  }
 }
